@@ -2,7 +2,7 @@
   "name": "magento-set/magento2-ce-patches",
   "description": "Magento 2 patches",
   "type":"magento2-patches",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "license": [
     "OSL-3.0",
     "AFL-3.0"
@@ -23,6 +23,9 @@
     "patches":{
       "1": {
         "name": "patch1"
+      },
+      "2": {
+        "name": "patch2"
       }
     }
   }
