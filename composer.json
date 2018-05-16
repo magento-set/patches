@@ -1,0 +1,29 @@
+{
+  "name": "magento-set/magento2-ce-patches",
+  "description": "Magento 2 patches",
+  "type":"magento2-patches",
+  "version": "2.2.1",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require": {
+    "magento-set/magento2-patches-tool": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "enable-patching": true,
+    "patch-dir": "patches",
+    "patches":{
+      "1": {
+        "name": "patch1"
+      }
+    }
+  }
+}
